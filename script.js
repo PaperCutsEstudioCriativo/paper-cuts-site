@@ -1,8 +1,7 @@
 // Personalização: preencha o telefone com DDI + DDD + número, só dígitos.
 // Exemplo de formato (não é um contato real): 5511999999999
-const WHATSAPP_NUMBER = "";
-const INSTAGRAM_URL = ""; // Ex.: https://www.instagram.com/seuperfil/
-
+const WHATSAPP_NUMBER = "5531995930435";
+const INSTAGRAM_URL = "https://www.instagram.com/papercutsestudiocriativo/";
 const whatsapp = document.querySelector("#whatsapp-cta");
 const instagram = document.querySelector("#instagram-link");
 if (WHATSAPP_NUMBER) {
