@@ -83,3 +83,5 @@
 .theme-directory-contact:hover{color:var(--coral)}
 @media(max-width:900px){.theme-directory{padding:23px}.theme-directory-grid{gap:14px}.theme-directory-grid section:first-child ul{columns:1}}
 @media(max-width:650px){.theme-directory{padding:21px;border-radius:18px}.theme-directory h3{font-size:29px}.theme-directory-grid{grid-template-columns:1fr;gap:13px}.theme-directory-grid section:first-child ul{columns:2}.theme-directory-grid li{font-size:10px}.theme-directory-contact{font-size:10px}}
+
+.floating-whatsapp{background:var(--ink)!important;box-shadow:0 8px 26px #51383b30}.floating-whatsapp:hover{background:var(--coral)!important}
