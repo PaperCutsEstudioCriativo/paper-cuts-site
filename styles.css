@@ -59,3 +59,8 @@
 .floating-whatsapp:hover{transform:translateY(-3px);background:#607d5b}
 @media(max-width:900px){.hero{padding-inline:6%;gap:5%}.hero-visual img{height:380px}.differentiator-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.nav a{padding:9px 10px}}
 @media(max-width:650px){.site-header{height:70px}.nav{top:99px;left:4%;right:4%;padding:12px 18px;border-radius:18px}.nav a{border-radius:10px;padding:11px 5px}.nav .nav-cta{margin:7px 0 0;text-align:center;padding:12px}.hero{padding:44px 7% 52px;grid-template-columns:1fr;gap:32px}.hero h1{font-size:clamp(42px,12vw,54px)}.hero-highlights{margin-top:22px}.hero-visual{justify-self:center;border-radius:25px}.hero-visual img{height:360px;border-radius:17px}.hero-visual figcaption{right:17px;bottom:18px;font-size:9px}.differentiator-grid{gap:10px}.differentiator-grid article{min-height:175px;padding:16px;border-radius:14px}.differentiator-grid h3{font-size:18px}.differentiator-grid p{font-size:10px}.floating-whatsapp{right:13px;bottom:13px;padding:12px 16px;font-size:11px}}
+
+
+/* Tres categorias de produtos sem Kits Digitais */
+.category-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media(max-width:900px){.category-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
