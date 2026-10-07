@@ -64,3 +64,22 @@
 /* Tres categorias de produtos sem Kits Digitais */
 .category-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
 @media(max-width:900px){.category-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+
+/* Lista de temas: leitura simples e destaque editorial */
+.theme-directory{align-self:center;padding:28px;background:var(--paper);color:var(--ink);border:1px solid #eaded5;border-radius:24px;box-shadow:0 20px 55px #51383b18;scroll-margin-top:110px}
+.theme-directory-eyebrow{margin:0 0 8px;color:var(--coral);font-size:9px;font-weight:700;letter-spacing:.16em}
+.theme-directory h3{margin:0;font:500 clamp(25px,2.8vw,34px)/1.1 var(--serif);color:var(--ink)}
+.theme-directory-intro{margin:12px 0 20px;color:var(--muted);font-size:11px;line-height:1.7}
+.theme-directory-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px 22px}
+.theme-directory-grid section{min-width:0;border-top:1px solid #eaded5;padding-top:10px}
+.theme-directory-grid h4{margin:0 0 8px;font:600 11px var(--sans);color:var(--ink)}
+.theme-directory-grid ul{margin:0;padding:0;list-style:none}
+.theme-directory-grid section:first-child ul{columns:2;column-gap:12px}
+.theme-directory-grid li{break-inside:avoid;position:relative;padding-left:13px;margin:0 0 5px;color:var(--muted);font-size:9px;line-height:1.5}
+.theme-directory-grid li:before{content:"✳";position:absolute;left:0;top:1px;color:var(--coral);font-size:8px}
+.theme-directory-contact{display:inline-flex;align-items:center;gap:9px;margin-top:17px;padding-top:13px;border-top:1px solid #eaded5;color:var(--ink);font-size:10px;font-weight:700;text-decoration:none}
+.theme-directory-contact span{color:var(--coral);font-size:15px}
+.theme-directory-contact:hover{color:var(--coral)}
+@media(max-width:900px){.theme-directory{padding:23px}.theme-directory-grid{gap:14px}.theme-directory-grid section:first-child ul{columns:1}}
+@media(max-width:650px){.theme-directory{padding:21px;border-radius:18px}.theme-directory h3{font-size:29px}.theme-directory-grid{grid-template-columns:1fr;gap:13px}.theme-directory-grid section:first-child ul{columns:2}.theme-directory-grid li{font-size:10px}.theme-directory-contact{font-size:10px}}
